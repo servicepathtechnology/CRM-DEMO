@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Sai Bathula",
+    "email": "bathula@gmail.com",
+    "phone": "1234567890",
+    "company": "Microsoft",
+    "jobTitle": "Product Manager",
+    "leadSource": "Website",
+    "status": "New Lead",
+    "assignedTo": "Marcus Chen",
+    "value": "99",
+    "priority": "Medium",
+    "followUpDate": "2026-04-01T00:00:00.000Z",
+    "tags": [],
+    "notes": "Need a product development of Startup",
+    "id": "a0f0750d-dca8-4825-90b9-39848a4f9eae",
+    "createdAt": "2026-03-08T07:18:25.614Z",
+    "updatedAt": "2026-03-08T07:18:25.614Z",
+    "activities": [
+      {
+        "id": "1ee36382-1a05-4b88-b05c-3c698f304869",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T07:18:25.614Z"
+      }
+    ]
+  }
+]
