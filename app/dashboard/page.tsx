@@ -65,24 +65,30 @@ export default function DashboardPage() {
 
         {/* Charts Row */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          <Card className="col-span-1 p-6 flex flex-col">
-            <h3 className="text-lg font-semibold text-slate-900 mb-6 font-sans">Pipeline Funnel</h3>
-            <div className="flex-1 flex items-center justify-center">
-              <PipelineFunnelChart data={analytics.leadsByStage} />
+          <Card className="col-span-1 p-6 flex flex-col w-full h-[400px]">
+            <h3 className="text-lg font-semibold text-slate-900 mb-4 font-sans">Pipeline Funnel</h3>
+            <div className="flex-1 w-full h-full relative min-h-0">
+              <div className="absolute inset-0">
+                <PipelineFunnelChart data={analytics.leadsByStage} />
+              </div>
             </div>
           </Card>
           
-          <Card className="col-span-1 p-6 flex flex-col">
-            <h3 className="text-lg font-semibold text-slate-900 mb-6 font-sans">Lead Sources</h3>
-            <div className="flex-1 flex items-center justify-center">
-              <LeadSourceChart data={analytics.leadsBySource} />
+          <Card className="col-span-1 p-6 flex flex-col w-full h-[400px]">
+            <h3 className="text-lg font-semibold text-slate-900 mb-4 font-sans">Lead Sources</h3>
+            <div className="flex-1 w-full h-full relative min-h-0">
+              <div className="absolute inset-0">
+                <LeadSourceChart data={analytics.leadsBySource} />
+              </div>
             </div>
           </Card>
 
-          <Card className="col-span-1 p-6 flex flex-col">
-            <h3 className="text-lg font-semibold text-slate-900 mb-6 font-sans">Leads Last 30 Days</h3>
-            <div className="flex-1 flex items-center justify-center">
-              <LeadsOverTimeChart data={analytics.leadsOverTime} />
+          <Card className="col-span-1 p-6 flex flex-col w-full h-[400px]">
+            <h3 className="text-lg font-semibold text-slate-900 mb-4 font-sans">Leads Last 30 Days</h3>
+            <div className="flex-1 w-full h-full relative min-h-0">
+              <div className="absolute inset-0">
+                <LeadsOverTimeChart data={analytics.leadsOverTime} />
+              </div>
             </div>
           </Card>
         </div>

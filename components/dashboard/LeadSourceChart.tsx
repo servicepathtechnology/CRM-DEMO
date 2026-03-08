@@ -14,7 +14,7 @@ export function LeadSourceChart({ data }: LeadSourceChartProps) {
   const COLORS = ['#4F46E5', '#06B6D4', '#10B981', '#F59E0B', '#EF4444', '#8B5CF6', '#EC4899', '#64748B'];
 
   return (
-    <div className="h-[300px] w-full">
+    <div className="w-full h-full">
       <ResponsiveContainer width="100%" height="100%">
         <PieChart>
           <Pie

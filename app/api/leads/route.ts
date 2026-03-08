@@ -1,11 +1,16 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/lib/database';
 
+import { seedDatabase } from '@/lib/database/seed';
+
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const params = Object.fromEntries(searchParams.entries());
 
   try {
+    // Attempt to seed if it's empty
+    await seedDatabase();
+    
     const data = await db.getLeads(params);
     return NextResponse.json(data);
   } catch (error: any) {

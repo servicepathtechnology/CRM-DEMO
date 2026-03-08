@@ -46,11 +46,12 @@ export function LeadFilters({ onFilterChange }: LeadFiltersProps) {
         />
       </div>
 
-      <div className="flex flex-wrap items-center gap-3 w-full md:w-auto">
+      <div className="flex flex-wrap items-center gap-3 w-full md:w-auto mt-4 md:mt-0">
         <Select 
           value={filters.status} 
           onChange={(e) => setFilters({ ...filters, status: e.target.value })}
-          className="w-full sm:w-[140px] py-2 bg-slate-50 rounded-lg text-sm"
+          className="py-2 bg-slate-50 rounded-lg text-sm"
+          wrapperClassName="w-full sm:w-[140px]"
         >
           <option value="">All Statuses</option>
           {PIPELINE_STAGES.map(stage => (
@@ -61,7 +62,8 @@ export function LeadFilters({ onFilterChange }: LeadFiltersProps) {
         <Select 
           value={filters.assignedTo} 
           onChange={(e) => setFilters({ ...filters, assignedTo: e.target.value })}
-          className="w-full sm:w-[140px] py-2 bg-slate-50 rounded-lg text-sm"
+          className="py-2 bg-slate-50 rounded-lg text-sm"
+          wrapperClassName="w-full sm:w-[140px]"
         >
           <option value="">All Agents</option>
           {AGENTS.map(agent => (
@@ -72,7 +74,8 @@ export function LeadFilters({ onFilterChange }: LeadFiltersProps) {
         <Select 
           value={filters.source} 
           onChange={(e) => setFilters({ ...filters, source: e.target.value })}
-          className="w-full sm:w-[140px] py-2 bg-slate-50 rounded-lg text-sm"
+          className="py-2 bg-slate-50 rounded-lg text-sm"
+          wrapperClassName="w-full sm:w-[140px]"
         >
           <option value="">All Sources</option>
           {LEAD_SOURCES.map(source => (

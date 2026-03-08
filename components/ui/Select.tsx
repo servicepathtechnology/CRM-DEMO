@@ -4,12 +4,13 @@ import { ChevronDown } from 'lucide-react';
 
 export interface SelectProps extends React.SelectHTMLAttributes<HTMLSelectElement> {
   error?: string;
+  wrapperClassName?: string;
 }
 
 export const Select = React.forwardRef<HTMLSelectElement, SelectProps>(
-  ({ className, error, children, ...props }, ref) => {
+  ({ className, error, wrapperClassName, children, ...props }, ref) => {
     return (
-      <div className="w-full relative">
+      <div className={cn("relative", wrapperClassName || "w-full")}>
         <select
           ref={ref}
           className={cn(

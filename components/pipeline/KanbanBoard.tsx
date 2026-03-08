@@ -84,6 +84,40 @@ export function KanbanBoard() {
   const handleDragOver = (event: DragOverEvent) => {
     const { active, over } = event;
     if (!over) return;
+
+    const activeId = active.id;
+    const overId = over.id;
+
+    if (activeId === overId) return;
+
+    const isActiveALead = active.data.current?.type === 'Lead';
+    const isOverALead = over.data.current?.type === 'Lead';
+    const isOverAColumn = over.data.current?.type === 'Column';
+
+    if (!isActiveALead) return;
+
+    // Moving a lead over another lead (reordering within same or diff column)
+    if (isOverALead) {
+      const activeLead = leads.find(l => l.id === activeId);
+      const overLead = leads.find(l => l.id === overId);
+
+      if (activeLead && overLead && activeLead.status !== overLead.status) {
+        setLeads(prev => {
+          return prev.map(l => l.id === activeId ? { ...l, status: overLead.status } : l);
+        });
+      }
+    }
+
+    // Moving a lead over an empty column
+    if (isOverAColumn) {
+      const activeLead = leads.find(l => l.id === activeId);
+      const newStage = over.data.current?.stage as PipelineStage;
+      if (activeLead && activeLead.status !== newStage) {
+        setLeads(prev => {
+          return prev.map(l => l.id === activeId ? { ...l, status: newStage } : l);
+        });
+      }
+    }
   };
 
   const handleDragEnd = async (event: DragEndEvent) => {
@@ -92,16 +126,15 @@ export function KanbanBoard() {
     
     if (!over) return;
 
-    const leadId = active.id;
-    // Data can be from the column or another item
+    const leadId = active.id as string;
     const newStatus = (over.data.current?.stage || over.data.current?.lead?.status) as PipelineStage;
-    const leadToUpdate = leads.find(l => l.id === leadId);
+    
+    // We already moved it optimistically in dragOver, so leads array correctly has it in the new status.
+    // We just need to persist the new state to the backend if it changed from its original.
+    // However, wait, initialLeads has the original state.
+    const originalLead = initialLeads?.find(l => l.id === leadId);
 
-    if (leadToUpdate && leadToUpdate.status !== newStatus) {
-      // Optimistic Update
-      const previousLeads = [...leads];
-      setLeads(prev => prev.map(l => l.id === leadId ? { ...l, status: newStatus } : l));
-
+    if (originalLead && newStatus && originalLead.status !== newStatus) {
       try {
         const res = await fetch(`/api/leads/${leadId}`, {
           method: 'PATCH',
@@ -111,9 +144,10 @@ export function KanbanBoard() {
 
         if (!res.ok) throw new Error('Failed to update stage');
         toast.success(`Moved to ${newStatus}`);
+        mutate(); // Re-sync with backend
       } catch (error) {
         toast.error('Failed to move lead');
-        setLeads(previousLeads); // Revert on failure
+        setLeads(initialLeads || []); // Revert to initial on failure
       }
     }
   };

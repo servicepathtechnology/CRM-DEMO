@@ -40,7 +40,8 @@ export async function seedDatabase() {
     'Operations Head', 'Founder', 'Managing Director'
   ];
 
-  for (let i = 0; i < 20; i++) {
+  for (let i = 0; i < 60; i++) {
+    const randomNameIndex = Math.floor(Math.random() * mockNames.length);
     const createdAt = randomDate(60, 0); // between 60 days ago and today
     const followUpDate = randomChoice([randomDate(7, -7), null]); // recent past or next week
     
@@ -49,8 +50,8 @@ export async function seedDatabase() {
     const agent = randomChoice(AGENTS).name; // Using name instead of ID for ease of display in this demo
     
     const leadData = {
-      name: mockNames[i],
-      email: `${mockNames[i].toLowerCase().replace(' ', '.')}@example.com`,
+      name: mockNames[randomNameIndex],
+      email: `${mockNames[randomNameIndex].toLowerCase().replace(' ', '.')}@example.com`,
       phone: `+1-555-01${Math.floor(Math.random() * 90) + 10}`,
       company: randomChoice(mockCompanies),
       jobTitle: randomChoice(mockTitles),

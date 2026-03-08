@@ -1,28 +1,2609 @@
 [
   {
-    "name": "Sai Bathula",
-    "email": "bathula@gmail.com",
-    "phone": "1234567890",
-    "company": "Microsoft",
-    "jobTitle": "Product Manager",
-    "leadSource": "Website",
-    "status": "New Lead",
-    "assignedTo": "Marcus Chen",
-    "value": "99",
-    "priority": "Medium",
-    "followUpDate": "2026-04-01T00:00:00.000Z",
-    "tags": [],
-    "notes": "Need a product development of Startup",
-    "id": "a0f0750d-dca8-4825-90b9-39848a4f9eae",
-    "createdAt": "2026-03-08T07:18:25.614Z",
-    "updatedAt": "2026-03-08T07:18:25.614Z",
+    "name": "Charlie Brown",
+    "email": "charlie.brown@example.com",
+    "phone": "+1-555-0179",
+    "company": "Soylent",
+    "jobTitle": "Managing Director",
+    "leadSource": "Other",
+    "status": "Contacted",
+    "assignedTo": "Priya Kapoor",
+    "value": 28900,
+    "priority": "High",
+    "tags": [
+      "E-commerce"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "9bab92c4-7075-424b-adab-04dd89dc9ac3",
+    "createdAt": "2026-02-13T09:06:53.012Z",
+    "updatedAt": "2026-03-08T09:06:53.033Z",
     "activities": [
       {
-        "id": "1ee36382-1a05-4b88-b05c-3c698f304869",
+        "type": "Call",
+        "content": "Follow up activity 2",
+        "performedBy": "Priya Kapoor",
+        "id": "42003fac-d5ac-402b-b249-e71cd1a01cf8",
+        "createdAt": "2026-03-08T09:06:53.033Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 1",
+        "performedBy": "Priya Kapoor",
+        "id": "27363851-9128-4fbd-8cce-b788765e92c4",
+        "createdAt": "2026-03-08T09:06:53.024Z"
+      },
+      {
+        "id": "4d8a8578-9a0a-46e5-a5e0-af4a9f15db8d",
         "type": "Note",
         "content": "Lead created in system.",
         "performedBy": "System",
-        "createdAt": "2026-03-08T07:18:25.614Z"
+        "createdAt": "2026-03-08T09:06:53.014Z"
+      }
+    ]
+  },
+  {
+    "name": "Charlie Brown",
+    "email": "charlie.brown@example.com",
+    "phone": "+1-555-0132",
+    "company": "Umbrella Corp",
+    "jobTitle": "Managing Director",
+    "leadSource": "Social Media",
+    "status": "Contacted",
+    "assignedTo": "Marcus Chen",
+    "value": 38300,
+    "priority": "High",
+    "tags": [
+      "E-commerce"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "e60df8af-0aa0-4e8c-9fd6-018035f35bd8",
+    "createdAt": "2026-02-22T09:06:53.037Z",
+    "updatedAt": "2026-03-08T09:06:53.060Z",
+    "activities": [
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 2",
+        "performedBy": "Marcus Chen",
+        "id": "15d2fe7e-2215-4736-bee6-b755d31f22fa",
+        "createdAt": "2026-03-08T09:06:53.060Z"
+      },
+      {
+        "type": "Note",
+        "content": "Follow up activity 1",
+        "performedBy": "Marcus Chen",
+        "id": "810fc7d8-f5f1-4c5b-967d-b9cbfc588eee",
+        "createdAt": "2026-03-08T09:06:53.055Z"
+      },
+      {
+        "id": "7847703e-049b-4c27-939e-d0777c13e4a3",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.041Z"
+      }
+    ]
+  },
+  {
+    "name": "Jessica Day",
+    "email": "jessica.day@example.com",
+    "phone": "+1-555-0146",
+    "company": "Cyberdyne",
+    "jobTitle": "CEO",
+    "leadSource": "Referral",
+    "status": "Closed Won",
+    "assignedTo": "Jordan Smith",
+    "value": 28900,
+    "priority": "Low",
+    "tags": [
+      "E-commerce"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-12T09:06:53.063Z",
+    "id": "290d9197-45e4-423c-8d71-346baedd2709",
+    "createdAt": "2026-01-08T09:06:53.063Z",
+    "updatedAt": "2026-03-08T09:06:53.083Z",
+    "activities": [
+      {
+        "type": "Email",
+        "content": "Follow up activity 2",
+        "performedBy": "Jordan Smith",
+        "id": "d9ab7ffb-376b-4cb7-a36f-05fbf7cb93e2",
+        "createdAt": "2026-03-08T09:06:53.083Z"
+      },
+      {
+        "type": "Call",
+        "content": "Follow up activity 1",
+        "performedBy": "Jordan Smith",
+        "id": "193dfc8a-f78a-4882-b79f-029fe37e782f",
+        "createdAt": "2026-03-08T09:06:53.077Z"
+      },
+      {
+        "id": "78bc2564-d873-415b-92cd-98bea7b32fc5",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.065Z"
+      }
+    ]
+  },
+  {
+    "name": "Charlie Brown",
+    "email": "charlie.brown@example.com",
+    "phone": "+1-555-0157",
+    "company": "Soylent",
+    "jobTitle": "CEO",
+    "leadSource": "Cold Outreach",
+    "status": "Closed Lost",
+    "assignedTo": "Sara Williams",
+    "value": 6400,
+    "priority": "Medium",
+    "tags": [
+      "SaaS"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-03T09:06:53.085Z",
+    "id": "1c97a0bc-8627-4465-9a48-332e578fa1e8",
+    "createdAt": "2026-02-11T09:06:53.085Z",
+    "updatedAt": "2026-03-08T09:06:53.096Z",
+    "activities": [
+      {
+        "type": "Note",
+        "content": "Follow up activity 2",
+        "performedBy": "Sara Williams",
+        "id": "aeb1a895-7aef-4116-beaf-be8b418c9e36",
+        "createdAt": "2026-03-08T09:06:53.096Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 1",
+        "performedBy": "Sara Williams",
+        "id": "26036255-4f43-4c78-a237-9403cef39dd0",
+        "createdAt": "2026-03-08T09:06:53.092Z"
+      },
+      {
+        "id": "fa4b3c5b-897d-464d-8bac-ca753d02e2ec",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.086Z"
+      }
+    ]
+  },
+  {
+    "name": "Diana Prince",
+    "email": "diana.prince@example.com",
+    "phone": "+1-555-0144",
+    "company": "Umbrella Corp",
+    "jobTitle": "CTO",
+    "leadSource": "Other",
+    "status": "Contacted",
+    "assignedTo": "Priya Kapoor",
+    "value": 40600,
+    "priority": "High",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "669abb3e-b762-40ff-8c37-cb9beba7a82e",
+    "createdAt": "2026-03-06T09:06:53.098Z",
+    "updatedAt": "2026-03-08T09:06:53.121Z",
+    "activities": [
+      {
+        "type": "Call",
+        "content": "Follow up activity 3",
+        "performedBy": "Priya Kapoor",
+        "id": "50e3bae2-d0df-46c1-a86c-9d4e1551ccea",
+        "createdAt": "2026-03-08T09:06:53.121Z"
+      },
+      {
+        "type": "Email",
+        "content": "Follow up activity 2",
+        "performedBy": "Priya Kapoor",
+        "id": "439ec22e-53c3-4c61-a5d2-715564ec37a4",
+        "createdAt": "2026-03-08T09:06:53.118Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 1",
+        "performedBy": "Priya Kapoor",
+        "id": "13541ad7-4dbb-42dc-9b64-eb7e0cc55748",
+        "createdAt": "2026-03-08T09:06:53.110Z"
+      },
+      {
+        "id": "3d3d4e1b-16b1-4655-b78b-b05b409a618e",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.100Z"
+      }
+    ]
+  },
+  {
+    "name": "Bob Smith",
+    "email": "bob.smith@example.com",
+    "phone": "+1-555-0116",
+    "company": "Cyberdyne",
+    "jobTitle": "CTO",
+    "leadSource": "Event",
+    "status": "Proposal Sent",
+    "assignedTo": "Marcus Chen",
+    "value": 35300,
+    "priority": "Low",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "d5d3449e-767a-4e29-a20d-601ec3f9e997",
+    "createdAt": "2026-03-04T09:06:53.123Z",
+    "updatedAt": "2026-03-08T09:06:53.134Z",
+    "activities": [
+      {
+        "type": "Note",
+        "content": "Follow up activity 1",
+        "performedBy": "Marcus Chen",
+        "id": "01eef170-67fa-4918-8495-a537e196d448",
+        "createdAt": "2026-03-08T09:06:53.134Z"
+      },
+      {
+        "id": "b369a33d-09c3-4853-ba28-d6ada968284d",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.125Z"
+      }
+    ]
+  },
+  {
+    "name": "Bob Smith",
+    "email": "bob.smith@example.com",
+    "phone": "+1-555-0172",
+    "company": "Cyberdyne",
+    "jobTitle": "Managing Director",
+    "leadSource": "Referral",
+    "status": "Proposal Sent",
+    "assignedTo": "Priya Kapoor",
+    "value": 23700,
+    "priority": "Medium",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "e37dce40-81a6-49c2-86fd-67c450189715",
+    "createdAt": "2026-01-18T09:06:53.135Z",
+    "updatedAt": "2026-03-08T09:06:53.148Z",
+    "activities": [
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 2",
+        "performedBy": "Priya Kapoor",
+        "id": "1e163bc4-4296-43cd-b917-2b4a988b2c45",
+        "createdAt": "2026-03-08T09:06:53.148Z"
+      },
+      {
+        "type": "Email",
+        "content": "Follow up activity 1",
+        "performedBy": "Priya Kapoor",
+        "id": "c1272c9a-a706-49ed-88c2-a9771efedc19",
+        "createdAt": "2026-03-08T09:06:53.145Z"
+      },
+      {
+        "id": "3c4c2cf2-5c60-48b6-843e-ffaf665e9e8f",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.137Z"
+      }
+    ]
+  },
+  {
+    "name": "Quinn Fabray",
+    "email": "quinn.fabray@example.com",
+    "phone": "+1-555-0169",
+    "company": "Cyberdyne",
+    "jobTitle": "VP of Sales",
+    "leadSource": "Google Ads",
+    "status": "Qualified",
+    "assignedTo": "Priya Kapoor",
+    "value": 24700,
+    "priority": "Medium",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "f54ae983-fcc5-431e-b1ef-996fd4371f0e",
+    "createdAt": "2026-03-08T09:06:53.150Z",
+    "updatedAt": "2026-03-08T09:06:53.164Z",
+    "activities": [
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 2",
+        "performedBy": "Priya Kapoor",
+        "id": "94f4e776-023c-4902-9cc6-2eed648003b6",
+        "createdAt": "2026-03-08T09:06:53.164Z"
+      },
+      {
+        "type": "Call",
+        "content": "Follow up activity 1",
+        "performedBy": "Priya Kapoor",
+        "id": "acd64ce7-f074-4525-aaaa-1bc57e8bd5f8",
+        "createdAt": "2026-03-08T09:06:53.159Z"
+      },
+      {
+        "id": "c1700bbd-b425-4553-b35d-a4b7719d2251",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.152Z"
+      }
+    ]
+  },
+  {
+    "name": "Diana Prince",
+    "email": "diana.prince@example.com",
+    "phone": "+1-555-0191",
+    "company": "Globex",
+    "jobTitle": "CEO",
+    "leadSource": "Google Ads",
+    "status": "Proposal Sent",
+    "assignedTo": "Marcus Chen",
+    "value": 19500,
+    "priority": "Medium",
+    "tags": [
+      "E-commerce"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "14fd2b1b-55a1-46e7-8073-2848af29cf7e",
+    "createdAt": "2026-01-12T09:06:53.166Z",
+    "updatedAt": "2026-03-08T09:06:53.174Z",
+    "activities": [
+      {
+        "type": "Email",
+        "content": "Follow up activity 1",
+        "performedBy": "Marcus Chen",
+        "id": "a72602de-a492-461c-9b30-86c366ee3b68",
+        "createdAt": "2026-03-08T09:06:53.174Z"
+      },
+      {
+        "id": "74bccd24-9d01-44ff-9f87-532079972e32",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.167Z"
+      }
+    ]
+  },
+  {
+    "name": "Evan Wright",
+    "email": "evan.wright@example.com",
+    "phone": "+1-555-0144",
+    "company": "Wayne Ent",
+    "jobTitle": "CEO",
+    "leadSource": "Social Media",
+    "status": "Proposal Sent",
+    "assignedTo": "Jordan Smith",
+    "value": 49700,
+    "priority": "Low",
+    "tags": [
+      "SaaS"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "37088be9-c6f2-4adc-8174-a01c81466196",
+    "createdAt": "2026-02-11T09:06:53.175Z",
+    "updatedAt": "2026-03-08T09:06:53.192Z",
+    "activities": [
+      {
+        "type": "Call",
+        "content": "Follow up activity 2",
+        "performedBy": "Jordan Smith",
+        "id": "0342499f-187f-4980-aca0-a7d7c1d41630",
+        "createdAt": "2026-03-08T09:06:53.192Z"
+      },
+      {
+        "type": "Call",
+        "content": "Follow up activity 1",
+        "performedBy": "Jordan Smith",
+        "id": "cc2fc1a1-d34f-4a03-b1d1-e81bfa0e22a5",
+        "createdAt": "2026-03-08T09:06:53.187Z"
+      },
+      {
+        "id": "489804c3-65e2-41b2-8758-b067f22509fc",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.177Z"
+      }
+    ]
+  },
+  {
+    "name": "Tom Haverford",
+    "email": "tom.haverford@example.com",
+    "phone": "+1-555-0114",
+    "company": "Massive Dynamic",
+    "jobTitle": "Operations Head",
+    "leadSource": "Google Ads",
+    "status": "New Lead",
+    "assignedTo": "Sara Williams",
+    "value": 34000,
+    "priority": "High",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "b1abd72b-28e1-4bad-951d-3507b751f02a",
+    "createdAt": "2026-01-29T09:06:53.193Z",
+    "updatedAt": "2026-03-08T09:06:53.207Z",
+    "activities": [
+      {
+        "type": "Email",
+        "content": "Follow up activity 2",
+        "performedBy": "Sara Williams",
+        "id": "d9374d25-9cd0-4611-9ede-b555a8790f5b",
+        "createdAt": "2026-03-08T09:06:53.207Z"
+      },
+      {
+        "type": "Email",
+        "content": "Follow up activity 1",
+        "performedBy": "Sara Williams",
+        "id": "147da1da-3706-4051-ba53-e16efa900e63",
+        "createdAt": "2026-03-08T09:06:53.204Z"
+      },
+      {
+        "id": "2a106d80-7205-4db8-844d-67de7e26fdff",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.195Z"
+      }
+    ]
+  },
+  {
+    "name": "Laura Croft",
+    "email": "laura.croft@example.com",
+    "phone": "+1-555-0117",
+    "company": "Wayne Ent",
+    "jobTitle": "Founder",
+    "leadSource": "Social Media",
+    "status": "Closed Won",
+    "assignedTo": "Jordan Smith",
+    "value": 4900,
+    "priority": "Medium",
+    "tags": [
+      "SaaS"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-01T09:06:53.209Z",
+    "id": "fad4770e-1560-4d85-8dc7-8be68bbdbe08",
+    "createdAt": "2026-01-26T09:06:53.209Z",
+    "updatedAt": "2026-03-08T09:06:53.231Z",
+    "activities": [
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 2",
+        "performedBy": "Jordan Smith",
+        "id": "b9b56e81-45b2-4b16-a160-c5b3ab16505f",
+        "createdAt": "2026-03-08T09:06:53.231Z"
+      },
+      {
+        "type": "Note",
+        "content": "Follow up activity 1",
+        "performedBy": "Jordan Smith",
+        "id": "c44e4ea7-6648-41d3-98db-a7b591bd7184",
+        "createdAt": "2026-03-08T09:06:53.224Z"
+      },
+      {
+        "id": "297cc197-d751-40e5-8aea-7ffd3cb3d0fa",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.211Z"
+      }
+    ]
+  },
+  {
+    "name": "Oliver Queen",
+    "email": "oliver.queen@example.com",
+    "phone": "+1-555-0110",
+    "company": "Stark Ind",
+    "jobTitle": "Operations Head",
+    "leadSource": "LinkedIn",
+    "status": "Qualified",
+    "assignedTo": "Priya Kapoor",
+    "value": 50700,
+    "priority": "High",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "07fcde22-6155-4ba7-b879-c2a614d716ff",
+    "createdAt": "2026-02-09T09:06:53.234Z",
+    "updatedAt": "2026-03-08T09:06:53.267Z",
+    "activities": [
+      {
+        "type": "Note",
+        "content": "Follow up activity 3",
+        "performedBy": "Priya Kapoor",
+        "id": "19497386-4ea6-4724-87fc-2b56e80b4a6b",
+        "createdAt": "2026-03-08T09:06:53.267Z"
+      },
+      {
+        "type": "Call",
+        "content": "Follow up activity 2",
+        "performedBy": "Priya Kapoor",
+        "id": "8e2a1e30-79f1-4180-a0f5-050240c32071",
+        "createdAt": "2026-03-08T09:06:53.263Z"
+      },
+      {
+        "type": "Note",
+        "content": "Follow up activity 1",
+        "performedBy": "Priya Kapoor",
+        "id": "ec98f3a1-742e-4856-b4b4-4ddc2c111e1e",
+        "createdAt": "2026-03-08T09:06:53.258Z"
+      },
+      {
+        "id": "00b921d5-f859-4cdc-9498-01c0d8b4c9e0",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.236Z"
+      }
+    ]
+  },
+  {
+    "name": "Sam Winchester",
+    "email": "sam.winchester@example.com",
+    "phone": "+1-555-0182",
+    "company": "Hooli",
+    "jobTitle": "Operations Head",
+    "leadSource": "Event",
+    "status": "Contacted",
+    "assignedTo": "Priya Kapoor",
+    "value": 4500,
+    "priority": "Medium",
+    "tags": [
+      "Enterprise"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-13T09:06:53.268Z",
+    "id": "53654e14-24cd-45e1-8fb1-43dc3021d023",
+    "createdAt": "2026-02-03T09:06:53.268Z",
+    "updatedAt": "2026-03-08T09:06:53.282Z",
+    "activities": [
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 2",
+        "performedBy": "Priya Kapoor",
+        "id": "208386d9-7ccf-4f21-a518-066ad385a86c",
+        "createdAt": "2026-03-08T09:06:53.282Z"
+      },
+      {
+        "type": "Note",
+        "content": "Follow up activity 1",
+        "performedBy": "Priya Kapoor",
+        "id": "9ce7b84d-6f9d-4fa2-a582-15bd7ac2fbeb",
+        "createdAt": "2026-03-08T09:06:53.278Z"
+      },
+      {
+        "id": "54d2f5fb-19c8-49e6-a3ab-78e65cacf49b",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.270Z"
+      }
+    ]
+  },
+  {
+    "name": "Laura Croft",
+    "email": "laura.croft@example.com",
+    "phone": "+1-555-0185",
+    "company": "Globex",
+    "jobTitle": "CEO",
+    "leadSource": "Website",
+    "status": "Qualified",
+    "assignedTo": "Sara Williams",
+    "value": 11400,
+    "priority": "Medium",
+    "tags": [
+      "Enterprise"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "02110522-cc18-45ee-9ae2-709edd9a82bf",
+    "createdAt": "2026-02-23T09:06:53.283Z",
+    "updatedAt": "2026-03-08T09:06:53.314Z",
+    "activities": [
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 2",
+        "performedBy": "Sara Williams",
+        "id": "600b23af-d0c4-4512-a364-0c9ceb9fa14a",
+        "createdAt": "2026-03-08T09:06:53.314Z"
+      },
+      {
+        "type": "Note",
+        "content": "Follow up activity 1",
+        "performedBy": "Sara Williams",
+        "id": "9656cefd-5e26-44d9-a783-aee83ac4b312",
+        "createdAt": "2026-03-08T09:06:53.309Z"
+      },
+      {
+        "id": "6b036605-2922-4797-af36-4b6222d4c320",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.286Z"
+      }
+    ]
+  },
+  {
+    "name": "Pam Beesly",
+    "email": "pam.beesly@example.com",
+    "phone": "+1-555-0151",
+    "company": "Stark Ind",
+    "jobTitle": "Operations Head",
+    "leadSource": "Cold Outreach",
+    "status": "Contacted",
+    "assignedTo": "Jordan Smith",
+    "value": 31600,
+    "priority": "Medium",
+    "tags": [
+      "SaaS"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "7b6efb7d-daa2-4206-98a1-dfeb60afbab1",
+    "createdAt": "2026-01-07T09:06:53.316Z",
+    "updatedAt": "2026-03-08T09:06:53.327Z",
+    "activities": [
+      {
+        "type": "Call",
+        "content": "Follow up activity 1",
+        "performedBy": "Jordan Smith",
+        "id": "1695a760-64ac-45de-9686-7686e6755f2e",
+        "createdAt": "2026-03-08T09:06:53.327Z"
+      },
+      {
+        "id": "e5925ae9-a7ef-44d2-90c9-ea56dfa5d38f",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.317Z"
+      }
+    ]
+  },
+  {
+    "name": "Kevin Space",
+    "email": "kevin.space@example.com",
+    "phone": "+1-555-0110",
+    "company": "Soylent",
+    "jobTitle": "Product Manager",
+    "leadSource": "Other",
+    "status": "Contacted",
+    "assignedTo": "Jordan Smith",
+    "value": 3300,
+    "priority": "Medium",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-13T09:06:53.329Z",
+    "id": "ba6889b3-2115-4b71-a70c-f11cb709e663",
+    "createdAt": "2026-01-12T09:06:53.329Z",
+    "updatedAt": "2026-03-08T09:06:53.348Z",
+    "activities": [
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 3",
+        "performedBy": "Jordan Smith",
+        "id": "b0b88de1-4d6f-4430-84ab-11099e92edfd",
+        "createdAt": "2026-03-08T09:06:53.348Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 2",
+        "performedBy": "Jordan Smith",
+        "id": "cf7e01c5-808d-497a-9736-e2f0c8f45627",
+        "createdAt": "2026-03-08T09:06:53.343Z"
+      },
+      {
+        "type": "Note",
+        "content": "Follow up activity 1",
+        "performedBy": "Jordan Smith",
+        "id": "9b166915-2056-4e16-8646-5f34ca1242e9",
+        "createdAt": "2026-03-08T09:06:53.339Z"
+      },
+      {
+        "id": "d7274474-58ff-4ee0-8c2e-1041c226cdf1",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.330Z"
+      }
+    ]
+  },
+  {
+    "name": "Sam Winchester",
+    "email": "sam.winchester@example.com",
+    "phone": "+1-555-0149",
+    "company": "Massive Dynamic",
+    "jobTitle": "CEO",
+    "leadSource": "Google Ads",
+    "status": "Proposal Sent",
+    "assignedTo": "Jordan Smith",
+    "value": 23600,
+    "priority": "High",
+    "tags": [
+      "Enterprise"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "dc36bac6-d9ab-4734-92bb-f470526005b1",
+    "createdAt": "2026-02-15T09:06:53.350Z",
+    "updatedAt": "2026-03-08T09:06:53.364Z",
+    "activities": [
+      {
+        "type": "Email",
+        "content": "Follow up activity 3",
+        "performedBy": "Jordan Smith",
+        "id": "74c2ac7b-37c6-41ba-99c5-bda6303e3bc1",
+        "createdAt": "2026-03-08T09:06:53.364Z"
+      },
+      {
+        "type": "Email",
+        "content": "Follow up activity 2",
+        "performedBy": "Jordan Smith",
+        "id": "ac31a286-bfc0-43d7-90dc-b656f62e7b02",
+        "createdAt": "2026-03-08T09:06:53.361Z"
+      },
+      {
+        "type": "Email",
+        "content": "Follow up activity 1",
+        "performedBy": "Jordan Smith",
+        "id": "78c11b8c-11d8-4222-b61b-df1424dc3c52",
+        "createdAt": "2026-03-08T09:06:53.357Z"
+      },
+      {
+        "id": "d583b338-f1ad-4e4a-ac2d-b0587d7d6fdb",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.351Z"
+      }
+    ]
+  },
+  {
+    "name": "Nancy Wheeler",
+    "email": "nancy.wheeler@example.com",
+    "phone": "+1-555-0185",
+    "company": "Wayne Ent",
+    "jobTitle": "Founder",
+    "leadSource": "Other",
+    "status": "Proposal Sent",
+    "assignedTo": "Marcus Chen",
+    "value": 16000,
+    "priority": "High",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-11T09:06:53.366Z",
+    "id": "7b3ffa0f-2538-484c-ae34-29f18a325def",
+    "createdAt": "2026-02-24T09:06:53.366Z",
+    "updatedAt": "2026-03-08T09:06:53.373Z",
+    "activities": [
+      {
+        "type": "Note",
+        "content": "Follow up activity 1",
+        "performedBy": "Marcus Chen",
+        "id": "5bbdbce5-9b66-481a-a0fb-a9d2ccdb94aa",
+        "createdAt": "2026-03-08T09:06:53.373Z"
+      },
+      {
+        "id": "b7ad01a3-a4bc-41da-aaf7-e195bfbd08a7",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.367Z"
+      }
+    ]
+  },
+  {
+    "name": "Evan Wright",
+    "email": "evan.wright@example.com",
+    "phone": "+1-555-0162",
+    "company": "Umbrella Corp",
+    "jobTitle": "Operations Head",
+    "leadSource": "LinkedIn",
+    "status": "Closed Lost",
+    "assignedTo": "Sara Williams",
+    "value": 17800,
+    "priority": "High",
+    "tags": [
+      "SaaS"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "971ad455-018f-4e71-895c-8b681e849d9b",
+    "createdAt": "2026-03-05T09:06:53.374Z",
+    "updatedAt": "2026-03-08T09:06:53.383Z",
+    "activities": [
+      {
+        "type": "Email",
+        "content": "Follow up activity 1",
+        "performedBy": "Sara Williams",
+        "id": "4031790b-0f79-4821-8457-38a4d0d6a861",
+        "createdAt": "2026-03-08T09:06:53.383Z"
+      },
+      {
+        "id": "70a7d55a-f420-4d4b-bf86-241887b8313d",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.377Z"
+      }
+    ]
+  },
+  {
+    "name": "Laura Croft",
+    "email": "laura.croft@example.com",
+    "phone": "+1-555-0117",
+    "company": "Acme Corp",
+    "jobTitle": "Product Manager",
+    "leadSource": "LinkedIn",
+    "status": "Qualified",
+    "assignedTo": "Priya Kapoor",
+    "value": 13500,
+    "priority": "Low",
+    "tags": [
+      "Enterprise"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "9fd23fcf-ef72-4bf0-be8f-7e69b3e451e9",
+    "createdAt": "2026-01-27T09:06:53.385Z",
+    "updatedAt": "2026-03-08T09:06:53.406Z",
+    "activities": [
+      {
+        "type": "Email",
+        "content": "Follow up activity 3",
+        "performedBy": "Priya Kapoor",
+        "id": "144cee90-194f-498c-843d-95880deb2aa5",
+        "createdAt": "2026-03-08T09:06:53.406Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 2",
+        "performedBy": "Priya Kapoor",
+        "id": "f350bb4e-e668-4749-99a5-2ebf273e3bd7",
+        "createdAt": "2026-03-08T09:06:53.402Z"
+      },
+      {
+        "type": "Note",
+        "content": "Follow up activity 1",
+        "performedBy": "Priya Kapoor",
+        "id": "cf0d1448-d4ad-43fb-9543-dd93b7a7808c",
+        "createdAt": "2026-03-08T09:06:53.398Z"
+      },
+      {
+        "id": "66ffb7de-b029-4af8-a19d-cb0d4877dfc1",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.386Z"
+      }
+    ]
+  },
+  {
+    "name": "Charlie Brown",
+    "email": "charlie.brown@example.com",
+    "phone": "+1-555-0188",
+    "company": "Massive Dynamic",
+    "jobTitle": "Marketing Director",
+    "leadSource": "LinkedIn",
+    "status": "Proposal Sent",
+    "assignedTo": "Priya Kapoor",
+    "value": 12900,
+    "priority": "Medium",
+    "tags": [
+      "E-commerce"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "76bd81b1-0f55-4d2c-b1cf-7141bafea332",
+    "createdAt": "2026-01-13T09:06:53.408Z",
+    "updatedAt": "2026-03-08T09:06:53.417Z",
+    "activities": [
+      {
+        "type": "Call",
+        "content": "Follow up activity 1",
+        "performedBy": "Priya Kapoor",
+        "id": "970891e7-d881-40de-900d-f657b0460e58",
+        "createdAt": "2026-03-08T09:06:53.417Z"
+      },
+      {
+        "id": "68b6dd1e-2e92-43cb-aef0-af081fb207ea",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.410Z"
+      }
+    ]
+  },
+  {
+    "name": "Charlie Brown",
+    "email": "charlie.brown@example.com",
+    "phone": "+1-555-0194",
+    "company": "Initech",
+    "jobTitle": "Product Manager",
+    "leadSource": "Google Ads",
+    "status": "Proposal Sent",
+    "assignedTo": "Marcus Chen",
+    "value": 3500,
+    "priority": "Low",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "171f2a7a-da73-43f7-9c16-8f139dc19a10",
+    "createdAt": "2026-01-16T09:06:53.419Z",
+    "updatedAt": "2026-03-08T09:06:53.437Z",
+    "activities": [
+      {
+        "type": "Call",
+        "content": "Follow up activity 3",
+        "performedBy": "Marcus Chen",
+        "id": "9cd23a55-f4df-473e-9fe5-aa6d9eb170dd",
+        "createdAt": "2026-03-08T09:06:53.437Z"
+      },
+      {
+        "type": "Note",
+        "content": "Follow up activity 2",
+        "performedBy": "Marcus Chen",
+        "id": "82c43dc9-eefe-4890-800d-06e9cf51f62a",
+        "createdAt": "2026-03-08T09:06:53.433Z"
+      },
+      {
+        "type": "Email",
+        "content": "Follow up activity 1",
+        "performedBy": "Marcus Chen",
+        "id": "f509800f-a6be-47a8-93c3-845515d3aad8",
+        "createdAt": "2026-03-08T09:06:53.429Z"
+      },
+      {
+        "id": "17441287-aa2b-43ca-ac17-02fc9f3238d8",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.421Z"
+      }
+    ]
+  },
+  {
+    "name": "Ian Malcolm",
+    "email": "ian.malcolm@example.com",
+    "phone": "+1-555-0151",
+    "company": "Initech",
+    "jobTitle": "Founder",
+    "leadSource": "Event",
+    "status": "Proposal Sent",
+    "assignedTo": "Jordan Smith",
+    "value": 22700,
+    "priority": "High",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-11T09:06:53.441Z",
+    "id": "75e17e45-f552-4806-b74b-6270d58583fb",
+    "createdAt": "2026-01-22T09:06:53.441Z",
+    "updatedAt": "2026-03-08T09:06:53.452Z",
+    "activities": [
+      {
+        "type": "Email",
+        "content": "Follow up activity 1",
+        "performedBy": "Jordan Smith",
+        "id": "bbc60dba-2cf4-4bad-88de-fc32853c26ac",
+        "createdAt": "2026-03-08T09:06:53.452Z"
+      },
+      {
+        "id": "e0956da5-fc33-4030-a8ee-60d8b034c3b7",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.443Z"
+      }
+    ]
+  },
+  {
+    "name": "Pam Beesly",
+    "email": "pam.beesly@example.com",
+    "phone": "+1-555-0123",
+    "company": "Umbrella Corp",
+    "jobTitle": "CTO",
+    "leadSource": "Social Media",
+    "status": "Qualified",
+    "assignedTo": "Priya Kapoor",
+    "value": 32400,
+    "priority": "Low",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-09T09:06:53.455Z",
+    "id": "81f40357-3e6a-46ae-9112-9f3343010467",
+    "createdAt": "2026-02-09T09:06:53.455Z",
+    "updatedAt": "2026-03-08T09:06:53.479Z",
+    "activities": [
+      {
+        "type": "Email",
+        "content": "Follow up activity 2",
+        "performedBy": "Priya Kapoor",
+        "id": "60d96ef0-4d67-4b7e-b937-e56cfe70409c",
+        "createdAt": "2026-03-08T09:06:53.479Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 1",
+        "performedBy": "Priya Kapoor",
+        "id": "c0224d3c-d92b-471c-a23b-37e2a3467157",
+        "createdAt": "2026-03-08T09:06:53.475Z"
+      },
+      {
+        "id": "cf5f01bc-060c-45d6-9c79-1525fccc4476",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.462Z"
+      }
+    ]
+  },
+  {
+    "name": "Oliver Queen",
+    "email": "oliver.queen@example.com",
+    "phone": "+1-555-0177",
+    "company": "Hooli",
+    "jobTitle": "Marketing Director",
+    "leadSource": "LinkedIn",
+    "status": "Proposal Sent",
+    "assignedTo": "Jordan Smith",
+    "value": 40100,
+    "priority": "High",
+    "tags": [
+      "E-commerce"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-09T09:06:53.481Z",
+    "id": "5c794831-cd15-4559-a59c-5a50f66979f7",
+    "createdAt": "2026-02-15T09:06:53.481Z",
+    "updatedAt": "2026-03-08T09:06:53.490Z",
+    "activities": [
+      {
+        "type": "Note",
+        "content": "Follow up activity 1",
+        "performedBy": "Jordan Smith",
+        "id": "a63e1c13-7e86-4262-819f-3d5a993893ab",
+        "createdAt": "2026-03-08T09:06:53.490Z"
+      },
+      {
+        "id": "2a16d15c-5a9a-417c-a9f2-a124947b50c8",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.483Z"
+      }
+    ]
+  },
+  {
+    "name": "Ian Malcolm",
+    "email": "ian.malcolm@example.com",
+    "phone": "+1-555-0199",
+    "company": "Umbrella Corp",
+    "jobTitle": "Product Manager",
+    "leadSource": "LinkedIn",
+    "status": "Closed Won",
+    "assignedTo": "Jordan Smith",
+    "value": 4100,
+    "priority": "High",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-10T09:06:53.492Z",
+    "id": "21439824-f0f1-4927-80ed-c405eb28ffd7",
+    "createdAt": "2026-01-10T09:06:53.492Z",
+    "updatedAt": "2026-03-08T09:06:53.510Z",
+    "activities": [
+      {
+        "type": "Call",
+        "content": "Follow up activity 2",
+        "performedBy": "Jordan Smith",
+        "id": "edc34f24-45e6-44de-8560-1cec53ec7c41",
+        "createdAt": "2026-03-08T09:06:53.510Z"
+      },
+      {
+        "type": "Note",
+        "content": "Follow up activity 1",
+        "performedBy": "Jordan Smith",
+        "id": "461f025d-a140-4e97-94ed-6700abfefad5",
+        "createdAt": "2026-03-08T09:06:53.505Z"
+      },
+      {
+        "id": "806c125f-6f32-4993-b740-4b9b0cb12ceb",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.493Z"
+      }
+    ]
+  },
+  {
+    "name": "Quinn Fabray",
+    "email": "quinn.fabray@example.com",
+    "phone": "+1-555-0181",
+    "company": "Soylent",
+    "jobTitle": "CEO",
+    "leadSource": "LinkedIn",
+    "status": "New Lead",
+    "assignedTo": "Jordan Smith",
+    "value": 21100,
+    "priority": "Low",
+    "tags": [
+      "E-commerce"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-10T09:06:53.514Z",
+    "id": "d5b8aac0-72ec-42a0-8e76-f962a03867a2",
+    "createdAt": "2026-01-16T09:06:53.514Z",
+    "updatedAt": "2026-03-08T09:06:53.526Z",
+    "activities": [
+      {
+        "type": "Email",
+        "content": "Follow up activity 1",
+        "performedBy": "Jordan Smith",
+        "id": "1fe5530a-3032-4f9d-8bd4-e384c9e9c3b1",
+        "createdAt": "2026-03-08T09:06:53.526Z"
+      },
+      {
+        "id": "e8a0cc9d-331c-4279-94e5-7c3789ecd5bb",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.516Z"
+      }
+    ]
+  },
+  {
+    "name": "Mike Ross",
+    "email": "mike.ross@example.com",
+    "phone": "+1-555-0188",
+    "company": "Globex",
+    "jobTitle": "VP of Sales",
+    "leadSource": "Event",
+    "status": "Qualified",
+    "assignedTo": "Priya Kapoor",
+    "value": 19500,
+    "priority": "Low",
+    "tags": [
+      "Enterprise"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "0de6f893-df34-4e54-8266-3669b95ef3f9",
+    "createdAt": "2026-01-24T09:06:53.529Z",
+    "updatedAt": "2026-03-08T09:06:53.544Z",
+    "activities": [
+      {
+        "type": "Note",
+        "content": "Follow up activity 3",
+        "performedBy": "Priya Kapoor",
+        "id": "3650439f-b6c2-4650-9a05-bbf936e11b6d",
+        "createdAt": "2026-03-08T09:06:53.544Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 2",
+        "performedBy": "Priya Kapoor",
+        "id": "0a5d45ec-ab14-4e3d-b71f-4eab8f58d1cb",
+        "createdAt": "2026-03-08T09:06:53.540Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 1",
+        "performedBy": "Priya Kapoor",
+        "id": "e5509611-194d-4088-925c-9717700c7244",
+        "createdAt": "2026-03-08T09:06:53.537Z"
+      },
+      {
+        "id": "14f81f0f-14cc-4089-84e0-a498a8a8cd6c",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.531Z"
+      }
+    ]
+  },
+  {
+    "name": "George Costanza",
+    "email": "george.costanza@example.com",
+    "phone": "+1-555-0129",
+    "company": "Acme Corp",
+    "jobTitle": "VP of Sales",
+    "leadSource": "Website",
+    "status": "Closed Won",
+    "assignedTo": "Marcus Chen",
+    "value": 29200,
+    "priority": "Medium",
+    "tags": [
+      "E-commerce"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-01T09:06:53.546Z",
+    "id": "e84eb731-7637-4b5b-941e-f5b31907ea6b",
+    "createdAt": "2026-03-01T09:06:53.546Z",
+    "updatedAt": "2026-03-08T09:06:53.586Z",
+    "activities": [
+      {
+        "type": "Call",
+        "content": "Follow up activity 3",
+        "performedBy": "Marcus Chen",
+        "id": "5433eec5-e708-47c3-8f75-e6e6947151b7",
+        "createdAt": "2026-03-08T09:06:53.586Z"
+      },
+      {
+        "type": "Call",
+        "content": "Follow up activity 2",
+        "performedBy": "Marcus Chen",
+        "id": "4becba2d-0b5c-4d6c-81cf-273f8387b4e7",
+        "createdAt": "2026-03-08T09:06:53.581Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 1",
+        "performedBy": "Marcus Chen",
+        "id": "8dcd71a7-e7ff-4baf-9b61-51f9ed5a5eb0",
+        "createdAt": "2026-03-08T09:06:53.575Z"
+      },
+      {
+        "id": "3716b664-5be3-4d4f-ad1e-a8d7c8b4444f",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.548Z"
+      }
+    ]
+  },
+  {
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "phone": "+1-555-0158",
+    "company": "Acme Corp",
+    "jobTitle": "Founder",
+    "leadSource": "Website",
+    "status": "Proposal Sent",
+    "assignedTo": "Jordan Smith",
+    "value": 29700,
+    "priority": "High",
+    "tags": [
+      "Enterprise"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "d151d1f3-819d-414e-8960-6f8515e90fea",
+    "createdAt": "2026-02-28T09:06:53.588Z",
+    "updatedAt": "2026-03-08T09:06:53.596Z",
+    "activities": [
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 1",
+        "performedBy": "Jordan Smith",
+        "id": "391f42ea-40ad-4dda-a6d1-87e73a9f18c6",
+        "createdAt": "2026-03-08T09:06:53.596Z"
+      },
+      {
+        "id": "d09b8503-c505-4d86-957a-fe9d14e92f52",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.590Z"
+      }
+    ]
+  },
+  {
+    "name": "Quinn Fabray",
+    "email": "quinn.fabray@example.com",
+    "phone": "+1-555-0186",
+    "company": "Umbrella Corp",
+    "jobTitle": "Founder",
+    "leadSource": "LinkedIn",
+    "status": "New Lead",
+    "assignedTo": "Priya Kapoor",
+    "value": 37700,
+    "priority": "High",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-11T09:06:53.598Z",
+    "id": "6402296c-e47c-4ff3-a1ed-e3f91f7abe75",
+    "createdAt": "2026-02-09T09:06:53.598Z",
+    "updatedAt": "2026-03-08T09:06:53.613Z",
+    "activities": [
+      {
+        "type": "Call",
+        "content": "Follow up activity 2",
+        "performedBy": "Priya Kapoor",
+        "id": "5bbba2de-b96d-4a04-96cb-85a715649ce3",
+        "createdAt": "2026-03-08T09:06:53.613Z"
+      },
+      {
+        "type": "Email",
+        "content": "Follow up activity 1",
+        "performedBy": "Priya Kapoor",
+        "id": "80b91017-3624-4b47-b01d-0d8e3ae808df",
+        "createdAt": "2026-03-08T09:06:53.608Z"
+      },
+      {
+        "id": "7a87541b-48fc-4f65-9e8e-fd1abe8a27e8",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.600Z"
+      }
+    ]
+  },
+  {
+    "name": "Jessica Day",
+    "email": "jessica.day@example.com",
+    "phone": "+1-555-0135",
+    "company": "Hooli",
+    "jobTitle": "Managing Director",
+    "leadSource": "Event",
+    "status": "Closed Won",
+    "assignedTo": "Sara Williams",
+    "value": 10100,
+    "priority": "Medium",
+    "tags": [
+      "SaaS"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "934fdfe6-648c-4d93-8916-b5f7240f287e",
+    "createdAt": "2026-01-10T09:06:53.616Z",
+    "updatedAt": "2026-03-08T09:06:53.635Z",
+    "activities": [
+      {
+        "type": "Note",
+        "content": "Follow up activity 3",
+        "performedBy": "Sara Williams",
+        "id": "927a574e-c5ed-49de-b4b5-a27c31641e74",
+        "createdAt": "2026-03-08T09:06:53.635Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 2",
+        "performedBy": "Sara Williams",
+        "id": "5900903a-a1fb-4ec0-933f-029a8e07e5d1",
+        "createdAt": "2026-03-08T09:06:53.631Z"
+      },
+      {
+        "type": "Call",
+        "content": "Follow up activity 1",
+        "performedBy": "Sara Williams",
+        "id": "4b1282c3-b061-4436-b2af-2aa507480efe",
+        "createdAt": "2026-03-08T09:06:53.626Z"
+      },
+      {
+        "id": "43b7e714-4cad-46b0-970b-4c2521e613d1",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.617Z"
+      }
+    ]
+  },
+  {
+    "name": "Laura Croft",
+    "email": "laura.croft@example.com",
+    "phone": "+1-555-0180",
+    "company": "Massive Dynamic",
+    "jobTitle": "CTO",
+    "leadSource": "Website",
+    "status": "Qualified",
+    "assignedTo": "Marcus Chen",
+    "value": 19600,
+    "priority": "High",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-07T09:06:53.637Z",
+    "id": "1698dd6f-9f55-4900-b062-441e035c30fb",
+    "createdAt": "2026-01-13T09:06:53.637Z",
+    "updatedAt": "2026-03-08T09:06:54.031Z",
+    "activities": [
+      {
+        "type": "Call",
+        "content": "Follow up activity 3",
+        "performedBy": "Marcus Chen",
+        "id": "871c2181-6da5-4111-9657-7a02e73ffffb",
+        "createdAt": "2026-03-08T09:06:54.031Z"
+      },
+      {
+        "type": "Email",
+        "content": "Follow up activity 2",
+        "performedBy": "Marcus Chen",
+        "id": "7cd86bb8-14da-41cb-8337-70322d674ab9",
+        "createdAt": "2026-03-08T09:06:54.011Z"
+      },
+      {
+        "type": "Email",
+        "content": "Follow up activity 1",
+        "performedBy": "Marcus Chen",
+        "id": "faba39e6-6f87-49bc-8b9f-c670703fc772",
+        "createdAt": "2026-03-08T09:06:53.742Z"
+      },
+      {
+        "id": "6c0ea939-51c9-4cc9-b516-d26f3c30cc6d",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:53.639Z"
+      }
+    ]
+  },
+  {
+    "name": "Oliver Queen",
+    "email": "oliver.queen@example.com",
+    "phone": "+1-555-0191",
+    "company": "Cyberdyne",
+    "jobTitle": "CEO",
+    "leadSource": "Cold Outreach",
+    "status": "Proposal Sent",
+    "assignedTo": "Sara Williams",
+    "value": 10200,
+    "priority": "Medium",
+    "tags": [
+      "Enterprise"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "a3cefe43-299a-43d4-b62a-93f102f94585",
+    "createdAt": "2026-01-24T09:06:54.037Z",
+    "updatedAt": "2026-03-08T09:06:54.084Z",
+    "activities": [
+      {
+        "type": "Note",
+        "content": "Follow up activity 3",
+        "performedBy": "Sara Williams",
+        "id": "e25c87ae-fb79-474a-9c4c-76cb81ce0327",
+        "createdAt": "2026-03-08T09:06:54.084Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 2",
+        "performedBy": "Sara Williams",
+        "id": "a1d6d1ca-bf83-444b-8299-7270bf1ad3f2",
+        "createdAt": "2026-03-08T09:06:54.058Z"
+      },
+      {
+        "type": "Note",
+        "content": "Follow up activity 1",
+        "performedBy": "Sara Williams",
+        "id": "e78e054d-fa19-45ed-979c-450ceac0d078",
+        "createdAt": "2026-03-08T09:06:54.052Z"
+      },
+      {
+        "id": "c2a6d62c-fbcd-45ca-bc26-9c2736d6b0ef",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.041Z"
+      }
+    ]
+  },
+  {
+    "name": "Hannah Abbott",
+    "email": "hannah.abbott@example.com",
+    "phone": "+1-555-0131",
+    "company": "Acme Corp",
+    "jobTitle": "CTO",
+    "leadSource": "Referral",
+    "status": "Proposal Sent",
+    "assignedTo": "Sara Williams",
+    "value": 12900,
+    "priority": "Low",
+    "tags": [
+      "SaaS"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-02T09:06:54.087Z",
+    "id": "1288ea28-f87c-4452-8df6-f7355a58a307",
+    "createdAt": "2026-01-11T09:06:54.087Z",
+    "updatedAt": "2026-03-08T09:06:54.112Z",
+    "activities": [
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 1",
+        "performedBy": "Sara Williams",
+        "id": "5ae33469-f308-4b2e-964b-d7bdb5f64fb9",
+        "createdAt": "2026-03-08T09:06:54.112Z"
+      },
+      {
+        "id": "e0ff7af2-03a1-49ac-9ac7-3284bff49566",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.089Z"
+      }
+    ]
+  },
+  {
+    "name": "Fiona Gallagher",
+    "email": "fiona.gallagher@example.com",
+    "phone": "+1-555-0141",
+    "company": "Umbrella Corp",
+    "jobTitle": "Product Manager",
+    "leadSource": "Social Media",
+    "status": "Contacted",
+    "assignedTo": "Priya Kapoor",
+    "value": 11500,
+    "priority": "High",
+    "tags": [
+      "E-commerce"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "7f582cd3-a55b-496e-9e7d-e54aadda2741",
+    "createdAt": "2026-01-07T09:06:54.117Z",
+    "updatedAt": "2026-03-08T09:06:54.133Z",
+    "activities": [
+      {
+        "type": "Call",
+        "content": "Follow up activity 1",
+        "performedBy": "Priya Kapoor",
+        "id": "2579dded-885b-4ce3-b6ec-31896a39f5a1",
+        "createdAt": "2026-03-08T09:06:54.133Z"
+      },
+      {
+        "id": "30cef894-6643-47b3-84b5-3b0658c6c781",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.122Z"
+      }
+    ]
+  },
+  {
+    "name": "Quinn Fabray",
+    "email": "quinn.fabray@example.com",
+    "phone": "+1-555-0164",
+    "company": "Cyberdyne",
+    "jobTitle": "Managing Director",
+    "leadSource": "Website",
+    "status": "Closed Lost",
+    "assignedTo": "Priya Kapoor",
+    "value": 1000,
+    "priority": "Medium",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "9c120691-6cc7-4d6f-b1a6-ab558c2312b5",
+    "createdAt": "2026-03-05T09:06:54.136Z",
+    "updatedAt": "2026-03-08T09:06:54.172Z",
+    "activities": [
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 2",
+        "performedBy": "Priya Kapoor",
+        "id": "4b2de5a8-c25d-4efd-875e-42ff320f13ac",
+        "createdAt": "2026-03-08T09:06:54.172Z"
+      },
+      {
+        "type": "Email",
+        "content": "Follow up activity 1",
+        "performedBy": "Priya Kapoor",
+        "id": "1859f56f-2352-4cba-885e-91579be164c3",
+        "createdAt": "2026-03-08T09:06:54.165Z"
+      },
+      {
+        "id": "85b0411c-7a86-4870-bc0a-446a350efb6c",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.144Z"
+      }
+    ]
+  },
+  {
+    "name": "Jessica Day",
+    "email": "jessica.day@example.com",
+    "phone": "+1-555-0119",
+    "company": "Cyberdyne",
+    "jobTitle": "Founder",
+    "leadSource": "Social Media",
+    "status": "Qualified",
+    "assignedTo": "Jordan Smith",
+    "value": 39100,
+    "priority": "Low",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-12T09:06:54.179Z",
+    "id": "adfb084c-29be-4c2a-bf67-f27425061960",
+    "createdAt": "2026-01-29T09:06:54.179Z",
+    "updatedAt": "2026-03-08T09:06:54.214Z",
+    "activities": [
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 1",
+        "performedBy": "Jordan Smith",
+        "id": "05e3ffe2-b8e5-4e48-b5a7-a2b397133bdf",
+        "createdAt": "2026-03-08T09:06:54.214Z"
+      },
+      {
+        "id": "4d15ed11-d5ca-4e74-99fa-698ca356457f",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.183Z"
+      }
+    ]
+  },
+  {
+    "name": "Ian Malcolm",
+    "email": "ian.malcolm@example.com",
+    "phone": "+1-555-0120",
+    "company": "Initech",
+    "jobTitle": "VP of Sales",
+    "leadSource": "Google Ads",
+    "status": "Proposal Sent",
+    "assignedTo": "Priya Kapoor",
+    "value": 28800,
+    "priority": "Low",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "b2397b0e-daee-47ef-b3e1-911878feb42d",
+    "createdAt": "2026-01-24T09:06:54.216Z",
+    "updatedAt": "2026-03-08T09:06:54.235Z",
+    "activities": [
+      {
+        "type": "Call",
+        "content": "Follow up activity 3",
+        "performedBy": "Priya Kapoor",
+        "id": "1257fafa-208a-46b6-8001-8085d623df63",
+        "createdAt": "2026-03-08T09:06:54.235Z"
+      },
+      {
+        "type": "Call",
+        "content": "Follow up activity 2",
+        "performedBy": "Priya Kapoor",
+        "id": "9c97b5c6-fc3d-4d43-ac25-8785bec0440c",
+        "createdAt": "2026-03-08T09:06:54.232Z"
+      },
+      {
+        "type": "Note",
+        "content": "Follow up activity 1",
+        "performedBy": "Priya Kapoor",
+        "id": "be7e561f-ddb4-4ea8-a11c-43b9385d10dc",
+        "createdAt": "2026-03-08T09:06:54.228Z"
+      },
+      {
+        "id": "2c0a9072-5e24-4b4c-91fb-4f6e34c7ad9a",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.218Z"
+      }
+    ]
+  },
+  {
+    "name": "Ian Malcolm",
+    "email": "ian.malcolm@example.com",
+    "phone": "+1-555-0196",
+    "company": "Cyberdyne",
+    "jobTitle": "CTO",
+    "leadSource": "LinkedIn",
+    "status": "Contacted",
+    "assignedTo": "Priya Kapoor",
+    "value": 45000,
+    "priority": "Medium",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-10T09:06:54.237Z",
+    "id": "8893a261-bf15-49c9-b4e1-1ea170ffe229",
+    "createdAt": "2026-01-28T09:06:54.237Z",
+    "updatedAt": "2026-03-08T09:06:54.265Z",
+    "activities": [
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 3",
+        "performedBy": "Priya Kapoor",
+        "id": "f484da08-23f1-4a59-94ab-9354bc7f7c65",
+        "createdAt": "2026-03-08T09:06:54.265Z"
+      },
+      {
+        "type": "Note",
+        "content": "Follow up activity 2",
+        "performedBy": "Priya Kapoor",
+        "id": "e2517880-b63e-46bb-a867-c29e9fbba609",
+        "createdAt": "2026-03-08T09:06:54.251Z"
+      },
+      {
+        "type": "Email",
+        "content": "Follow up activity 1",
+        "performedBy": "Priya Kapoor",
+        "id": "e8ab53bb-5bc0-4ea2-814a-fe88ff5469e4",
+        "createdAt": "2026-03-08T09:06:54.245Z"
+      },
+      {
+        "id": "8c481f80-6ced-4be1-b284-cb2c2f05c585",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.238Z"
+      }
+    ]
+  },
+  {
+    "name": "Mike Ross",
+    "email": "mike.ross@example.com",
+    "phone": "+1-555-0166",
+    "company": "Cyberdyne",
+    "jobTitle": "Managing Director",
+    "leadSource": "Referral",
+    "status": "Proposal Sent",
+    "assignedTo": "Marcus Chen",
+    "value": 42400,
+    "priority": "Low",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-05T09:06:54.272Z",
+    "id": "e3af5354-55ba-47a4-8719-48e3bf3aa971",
+    "createdAt": "2026-02-25T09:06:54.272Z",
+    "updatedAt": "2026-03-08T09:06:54.283Z",
+    "activities": [
+      {
+        "type": "Note",
+        "content": "Follow up activity 1",
+        "performedBy": "Marcus Chen",
+        "id": "f46a0ce3-f3a6-4efd-a7f0-bf8e9bca5ff1",
+        "createdAt": "2026-03-08T09:06:54.283Z"
+      },
+      {
+        "id": "1a351ca2-7a64-46d8-bfc5-6354d56fa4ea",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.275Z"
+      }
+    ]
+  },
+  {
+    "name": "Laura Croft",
+    "email": "laura.croft@example.com",
+    "phone": "+1-555-0161",
+    "company": "Soylent",
+    "jobTitle": "Founder",
+    "leadSource": "Cold Outreach",
+    "status": "Qualified",
+    "assignedTo": "Marcus Chen",
+    "value": 40200,
+    "priority": "Low",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "36db81a6-eff6-4b38-a275-1499cd0c251b",
+    "createdAt": "2026-02-06T09:06:54.285Z",
+    "updatedAt": "2026-03-08T09:06:54.313Z",
+    "activities": [
+      {
+        "type": "Email",
+        "content": "Follow up activity 3",
+        "performedBy": "Marcus Chen",
+        "id": "862a28bc-1fff-4f92-b8ce-2f0d90d5407f",
+        "createdAt": "2026-03-08T09:06:54.313Z"
+      },
+      {
+        "type": "Note",
+        "content": "Follow up activity 2",
+        "performedBy": "Marcus Chen",
+        "id": "6cc4d2e0-3d73-4af7-9aad-fab601bbf40a",
+        "createdAt": "2026-03-08T09:06:54.303Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 1",
+        "performedBy": "Marcus Chen",
+        "id": "b426775f-5d2b-485c-a717-5facd104f2b4",
+        "createdAt": "2026-03-08T09:06:54.296Z"
+      },
+      {
+        "id": "b95c1c32-147b-4dfa-9c1e-1b2761055bb3",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.288Z"
+      }
+    ]
+  },
+  {
+    "name": "Oliver Queen",
+    "email": "oliver.queen@example.com",
+    "phone": "+1-555-0169",
+    "company": "Massive Dynamic",
+    "jobTitle": "Marketing Director",
+    "leadSource": "Cold Outreach",
+    "status": "Closed Lost",
+    "assignedTo": "Marcus Chen",
+    "value": 45500,
+    "priority": "High",
+    "tags": [
+      "Enterprise"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "ffb211e9-1a12-469b-94f6-0b3809e69216",
+    "createdAt": "2026-01-07T09:06:54.319Z",
+    "updatedAt": "2026-03-08T09:06:54.350Z",
+    "activities": [
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 2",
+        "performedBy": "Marcus Chen",
+        "id": "e51edad3-0c02-4650-9193-c00a238a8a76",
+        "createdAt": "2026-03-08T09:06:54.350Z"
+      },
+      {
+        "type": "Note",
+        "content": "Follow up activity 1",
+        "performedBy": "Marcus Chen",
+        "id": "6f39dfde-c45a-45d7-a850-3f70c012e30d",
+        "createdAt": "2026-03-08T09:06:54.346Z"
+      },
+      {
+        "id": "f6f0c9e3-78a8-4232-b616-5a0b59288b87",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.326Z"
+      }
+    ]
+  },
+  {
+    "name": "Quinn Fabray",
+    "email": "quinn.fabray@example.com",
+    "phone": "+1-555-0118",
+    "company": "Wayne Ent",
+    "jobTitle": "CEO",
+    "leadSource": "Google Ads",
+    "status": "Qualified",
+    "assignedTo": "Priya Kapoor",
+    "value": 47700,
+    "priority": "Medium",
+    "tags": [
+      "Enterprise"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-02T09:06:54.352Z",
+    "id": "c3b0c740-6e23-4a9b-8f01-89f25c0869ad",
+    "createdAt": "2026-01-30T09:06:54.352Z",
+    "updatedAt": "2026-03-08T09:06:54.366Z",
+    "activities": [
+      {
+        "type": "Note",
+        "content": "Follow up activity 1",
+        "performedBy": "Priya Kapoor",
+        "id": "81c767f0-dd79-4669-b74f-c16bfe8aa764",
+        "createdAt": "2026-03-08T09:06:54.366Z"
+      },
+      {
+        "id": "2746f006-ac99-42c4-aa41-f573c454f16d",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.354Z"
+      }
+    ]
+  },
+  {
+    "name": "Sam Winchester",
+    "email": "sam.winchester@example.com",
+    "phone": "+1-555-0159",
+    "company": "Cyberdyne",
+    "jobTitle": "VP of Sales",
+    "leadSource": "Referral",
+    "status": "Proposal Sent",
+    "assignedTo": "Marcus Chen",
+    "value": 8600,
+    "priority": "High",
+    "tags": [
+      "E-commerce"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "0cdf0c77-b9b4-4fc1-888e-9db73c94667a",
+    "createdAt": "2026-01-07T09:06:54.370Z",
+    "updatedAt": "2026-03-08T09:06:54.409Z",
+    "activities": [
+      {
+        "type": "Email",
+        "content": "Follow up activity 3",
+        "performedBy": "Marcus Chen",
+        "id": "43451e93-3b3d-422d-8209-c7502dbe9402",
+        "createdAt": "2026-03-08T09:06:54.409Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 2",
+        "performedBy": "Marcus Chen",
+        "id": "6e642b79-b221-43e0-ab55-f171687387e0",
+        "createdAt": "2026-03-08T09:06:54.402Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 1",
+        "performedBy": "Marcus Chen",
+        "id": "6384500a-16d2-4047-87ca-423185b68383",
+        "createdAt": "2026-03-08T09:06:54.389Z"
+      },
+      {
+        "id": "21e2b624-9ebf-4e74-bbe7-785a19a8dc85",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.372Z"
+      }
+    ]
+  },
+  {
+    "name": "Diana Prince",
+    "email": "diana.prince@example.com",
+    "phone": "+1-555-0127",
+    "company": "Wayne Ent",
+    "jobTitle": "Marketing Director",
+    "leadSource": "Website",
+    "status": "Closed Won",
+    "assignedTo": "Jordan Smith",
+    "value": 39300,
+    "priority": "High",
+    "tags": [
+      "SaaS"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "c8fe1f52-af5d-42b0-ae94-f5e58f0488ae",
+    "createdAt": "2026-01-31T09:06:54.414Z",
+    "updatedAt": "2026-03-08T09:06:54.446Z",
+    "activities": [
+      {
+        "type": "Call",
+        "content": "Follow up activity 2",
+        "performedBy": "Jordan Smith",
+        "id": "37234574-f166-4a37-af0b-dd7e7784e82c",
+        "createdAt": "2026-03-08T09:06:54.446Z"
+      },
+      {
+        "type": "Call",
+        "content": "Follow up activity 1",
+        "performedBy": "Jordan Smith",
+        "id": "f933126b-44ea-4294-a65c-ae870d1cfd60",
+        "createdAt": "2026-03-08T09:06:54.437Z"
+      },
+      {
+        "id": "a4131d50-9161-47ca-9f72-a9ae4a235b0f",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.420Z"
+      }
+    ]
+  },
+  {
+    "name": "Kevin Space",
+    "email": "kevin.space@example.com",
+    "phone": "+1-555-0167",
+    "company": "Cyberdyne",
+    "jobTitle": "Marketing Director",
+    "leadSource": "Website",
+    "status": "Contacted",
+    "assignedTo": "Priya Kapoor",
+    "value": 27400,
+    "priority": "High",
+    "tags": [
+      "E-commerce"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "c5aecec5-65f2-46a0-a6f2-f780a36b414c",
+    "createdAt": "2026-01-18T09:06:54.451Z",
+    "updatedAt": "2026-03-08T09:06:54.483Z",
+    "activities": [
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 3",
+        "performedBy": "Priya Kapoor",
+        "id": "e11e7356-2429-4cd1-bd2a-59bdf2070029",
+        "createdAt": "2026-03-08T09:06:54.483Z"
+      },
+      {
+        "type": "Call",
+        "content": "Follow up activity 2",
+        "performedBy": "Priya Kapoor",
+        "id": "87fb3a50-d8e8-418b-80d6-6d842f9400c7",
+        "createdAt": "2026-03-08T09:06:54.475Z"
+      },
+      {
+        "type": "Call",
+        "content": "Follow up activity 1",
+        "performedBy": "Priya Kapoor",
+        "id": "21686c15-ca63-4d18-be41-8dcaec8aba71",
+        "createdAt": "2026-03-08T09:06:54.470Z"
+      },
+      {
+        "id": "5ae77376-59a7-428f-a21b-7230322d2fba",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.455Z"
+      }
+    ]
+  },
+  {
+    "name": "Mike Ross",
+    "email": "mike.ross@example.com",
+    "phone": "+1-555-0141",
+    "company": "Umbrella Corp",
+    "jobTitle": "CEO",
+    "leadSource": "Other",
+    "status": "New Lead",
+    "assignedTo": "Sara Williams",
+    "value": 8300,
+    "priority": "High",
+    "tags": [
+      "E-commerce"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "fe5db2c4-68ed-4506-8cd0-cdc297073dc6",
+    "createdAt": "2026-02-20T09:06:54.489Z",
+    "updatedAt": "2026-03-08T09:06:54.538Z",
+    "activities": [
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 3",
+        "performedBy": "Sara Williams",
+        "id": "43a8abd1-bd87-4135-afa6-fce340da2bd5",
+        "createdAt": "2026-03-08T09:06:54.538Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 2",
+        "performedBy": "Sara Williams",
+        "id": "644c80fc-7103-4493-bc74-d96c0fbb0810",
+        "createdAt": "2026-03-08T09:06:54.526Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 1",
+        "performedBy": "Sara Williams",
+        "id": "3d69969f-b973-4865-b159-9ca20ae38d33",
+        "createdAt": "2026-03-08T09:06:54.516Z"
+      },
+      {
+        "id": "1fc7ff92-4f31-4840-b3a6-801aeee16ad6",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.492Z"
+      }
+    ]
+  },
+  {
+    "name": "Jessica Day",
+    "email": "jessica.day@example.com",
+    "phone": "+1-555-0149",
+    "company": "Massive Dynamic",
+    "jobTitle": "Founder",
+    "leadSource": "Social Media",
+    "status": "Contacted",
+    "assignedTo": "Jordan Smith",
+    "value": 15000,
+    "priority": "Medium",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "0b2cace1-b378-4b7f-b73b-c1f88cdf2817",
+    "createdAt": "2026-01-12T09:06:54.542Z",
+    "updatedAt": "2026-03-08T09:06:54.568Z",
+    "activities": [
+      {
+        "type": "Call",
+        "content": "Follow up activity 1",
+        "performedBy": "Jordan Smith",
+        "id": "f5716881-39e4-4772-a619-7295d3f85917",
+        "createdAt": "2026-03-08T09:06:54.568Z"
+      },
+      {
+        "id": "ebf7ce1b-ca03-4a4c-953a-c1ab25769d6a",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.546Z"
+      }
+    ]
+  },
+  {
+    "name": "Rachel Green",
+    "email": "rachel.green@example.com",
+    "phone": "+1-555-0152",
+    "company": "Massive Dynamic",
+    "jobTitle": "CTO",
+    "leadSource": "Other",
+    "status": "Proposal Sent",
+    "assignedTo": "Marcus Chen",
+    "value": 42500,
+    "priority": "Low",
+    "tags": [
+      "Enterprise"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-15T09:06:54.573Z",
+    "id": "01f3fabe-2dbc-46da-a0bc-7857086516d5",
+    "createdAt": "2026-01-23T09:06:54.573Z",
+    "updatedAt": "2026-03-08T09:06:54.657Z",
+    "activities": [
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 1",
+        "performedBy": "Marcus Chen",
+        "id": "dc1a61aa-85d2-49a0-a244-96b6dc75e360",
+        "createdAt": "2026-03-08T09:06:54.657Z"
+      },
+      {
+        "id": "99945cc4-36d4-4957-96f8-f136503a9058",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.580Z"
+      }
+    ]
+  },
+  {
+    "name": "Diana Prince",
+    "email": "diana.prince@example.com",
+    "phone": "+1-555-0173",
+    "company": "Soylent",
+    "jobTitle": "VP of Sales",
+    "leadSource": "LinkedIn",
+    "status": "Contacted",
+    "assignedTo": "Jordan Smith",
+    "value": 46000,
+    "priority": "Low",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-11T09:06:54.719Z",
+    "id": "7173283d-e78d-4480-ab37-7128d53a5d9e",
+    "createdAt": "2026-02-11T09:06:54.719Z",
+    "updatedAt": "2026-03-08T09:06:54.741Z",
+    "activities": [
+      {
+        "type": "Note",
+        "content": "Follow up activity 1",
+        "performedBy": "Jordan Smith",
+        "id": "e2595930-3cf7-498e-acee-4bcd50493428",
+        "createdAt": "2026-03-08T09:06:54.741Z"
+      },
+      {
+        "id": "e9120741-88f2-4486-9ad0-45d8069bcec4",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.723Z"
+      }
+    ]
+  },
+  {
+    "name": "Hannah Abbott",
+    "email": "hannah.abbott@example.com",
+    "phone": "+1-555-0121",
+    "company": "Umbrella Corp",
+    "jobTitle": "Marketing Director",
+    "leadSource": "Referral",
+    "status": "New Lead",
+    "assignedTo": "Jordan Smith",
+    "value": 16700,
+    "priority": "Medium",
+    "tags": [
+      "Enterprise"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-07T09:06:54.746Z",
+    "id": "07cc762f-fbb0-4063-b6a0-d659d57d2e8f",
+    "createdAt": "2026-02-21T09:06:54.746Z",
+    "updatedAt": "2026-03-08T09:06:54.802Z",
+    "activities": [
+      {
+        "type": "Email",
+        "content": "Follow up activity 3",
+        "performedBy": "Jordan Smith",
+        "id": "7be26747-7ecc-43c3-ba0a-b54b7be308ff",
+        "createdAt": "2026-03-08T09:06:54.802Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 2",
+        "performedBy": "Jordan Smith",
+        "id": "2010af60-d6da-4bff-be90-c3ed22922153",
+        "createdAt": "2026-03-08T09:06:54.790Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 1",
+        "performedBy": "Jordan Smith",
+        "id": "9668ca86-43f2-476d-ae1d-402600a9a7d0",
+        "createdAt": "2026-03-08T09:06:54.774Z"
+      },
+      {
+        "id": "75fb739d-f679-452f-a5ce-d28cdb505d85",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.752Z"
+      }
+    ]
+  },
+  {
+    "name": "Evan Wright",
+    "email": "evan.wright@example.com",
+    "phone": "+1-555-0128",
+    "company": "Wayne Ent",
+    "jobTitle": "Founder",
+    "leadSource": "Event",
+    "status": "Closed Won",
+    "assignedTo": "Priya Kapoor",
+    "value": 14200,
+    "priority": "Medium",
+    "tags": [
+      "SaaS"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "34f45e27-4602-4c90-add3-e9bb53fa5f32",
+    "createdAt": "2026-02-19T09:06:54.808Z",
+    "updatedAt": "2026-03-08T09:06:54.833Z",
+    "activities": [
+      {
+        "type": "Email",
+        "content": "Follow up activity 1",
+        "performedBy": "Priya Kapoor",
+        "id": "faec6f11-04a3-4d9b-ad22-e2ab563de8f1",
+        "createdAt": "2026-03-08T09:06:54.833Z"
+      },
+      {
+        "id": "48eba26f-a554-4098-8800-d76fefe8d747",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.813Z"
+      }
+    ]
+  },
+  {
+    "name": "Jessica Day",
+    "email": "jessica.day@example.com",
+    "phone": "+1-555-0192",
+    "company": "Acme Corp",
+    "jobTitle": "VP of Sales",
+    "leadSource": "Social Media",
+    "status": "New Lead",
+    "assignedTo": "Jordan Smith",
+    "value": 42600,
+    "priority": "Medium",
+    "tags": [
+      "E-commerce"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "d6092d9f-c386-4505-99ce-ec4baf03c2ef",
+    "createdAt": "2026-01-16T09:06:54.839Z",
+    "updatedAt": "2026-03-08T09:06:54.875Z",
+    "activities": [
+      {
+        "type": "Note",
+        "content": "Follow up activity 3",
+        "performedBy": "Jordan Smith",
+        "id": "565158de-144d-430b-ae29-84098633f0eb",
+        "createdAt": "2026-03-08T09:06:54.875Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 2",
+        "performedBy": "Jordan Smith",
+        "id": "c3f050d5-d4ad-42ad-8f3e-38d65877fa7d",
+        "createdAt": "2026-03-08T09:06:54.869Z"
+      },
+      {
+        "type": "Note",
+        "content": "Follow up activity 1",
+        "performedBy": "Jordan Smith",
+        "id": "fa079aeb-447f-4d1c-9b02-2477b6cb9a86",
+        "createdAt": "2026-03-08T09:06:54.860Z"
+      },
+      {
+        "id": "a6caa9ca-b285-43a4-8d98-cca4d4ed6eea",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.842Z"
+      }
+    ]
+  },
+  {
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "phone": "+1-555-0152",
+    "company": "Stark Ind",
+    "jobTitle": "Managing Director",
+    "leadSource": "Event",
+    "status": "Closed Lost",
+    "assignedTo": "Marcus Chen",
+    "value": 36500,
+    "priority": "Low",
+    "tags": [
+      "E-commerce"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "fbd32dfa-a894-49c5-934d-35710012d21a",
+    "createdAt": "2026-01-25T09:06:54.879Z",
+    "updatedAt": "2026-03-08T09:06:54.918Z",
+    "activities": [
+      {
+        "type": "Note",
+        "content": "Follow up activity 3",
+        "performedBy": "Marcus Chen",
+        "id": "1ee84084-1564-447b-a162-e7a14f7a2ec9",
+        "createdAt": "2026-03-08T09:06:54.918Z"
+      },
+      {
+        "type": "Note",
+        "content": "Follow up activity 2",
+        "performedBy": "Marcus Chen",
+        "id": "ace95cce-9281-4cfc-af29-48d6bdc276ce",
+        "createdAt": "2026-03-08T09:06:54.908Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 1",
+        "performedBy": "Marcus Chen",
+        "id": "684f5f3c-6df3-4722-a554-b156e88ef463",
+        "createdAt": "2026-03-08T09:06:54.900Z"
+      },
+      {
+        "id": "98860843-bf73-4929-a47b-c8b19430542c",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.883Z"
+      }
+    ]
+  },
+  {
+    "name": "Quinn Fabray",
+    "email": "quinn.fabray@example.com",
+    "phone": "+1-555-0140",
+    "company": "Wayne Ent",
+    "jobTitle": "CEO",
+    "leadSource": "Google Ads",
+    "status": "Closed Won",
+    "assignedTo": "Marcus Chen",
+    "value": 10700,
+    "priority": "High",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": "2026-03-14T09:06:54.921Z",
+    "id": "7eab7c5c-48d1-460e-b902-1dfece86e3e0",
+    "createdAt": "2026-01-11T09:06:54.921Z",
+    "updatedAt": "2026-03-08T09:06:54.955Z",
+    "activities": [
+      {
+        "type": "Call",
+        "content": "Follow up activity 3",
+        "performedBy": "Marcus Chen",
+        "id": "24e68e6d-e25f-4a70-b263-74cae2e5a5b8",
+        "createdAt": "2026-03-08T09:06:54.955Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 2",
+        "performedBy": "Marcus Chen",
+        "id": "ba97af87-c4a7-4859-9672-bf228c6bfa4e",
+        "createdAt": "2026-03-08T09:06:54.948Z"
+      },
+      {
+        "type": "Call",
+        "content": "Follow up activity 1",
+        "performedBy": "Marcus Chen",
+        "id": "f79b7300-b699-4ee3-8449-def3190f10ca",
+        "createdAt": "2026-03-08T09:06:54.940Z"
+      },
+      {
+        "id": "46133bce-91b9-449f-bbc7-5b86f68f1f28",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.925Z"
+      }
+    ]
+  },
+  {
+    "name": "Ian Malcolm",
+    "email": "ian.malcolm@example.com",
+    "phone": "+1-555-0147",
+    "company": "Massive Dynamic",
+    "jobTitle": "Managing Director",
+    "leadSource": "Referral",
+    "status": "Closed Lost",
+    "assignedTo": "Sara Williams",
+    "value": 31000,
+    "priority": "Low",
+    "tags": [
+      "Startup"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "659abf22-2b01-417b-92e5-55ea81767927",
+    "createdAt": "2026-01-14T09:06:54.961Z",
+    "updatedAt": "2026-03-08T09:06:55.000Z",
+    "activities": [
+      {
+        "type": "Note",
+        "content": "Follow up activity 3",
+        "performedBy": "Sara Williams",
+        "id": "6c9e958a-84c0-45d3-b7b9-1308fa134cb3",
+        "createdAt": "2026-03-08T09:06:55.000Z"
+      },
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 2",
+        "performedBy": "Sara Williams",
+        "id": "087a9b5d-28f4-4495-8448-355da526a74b",
+        "createdAt": "2026-03-08T09:06:54.992Z"
+      },
+      {
+        "type": "Call",
+        "content": "Follow up activity 1",
+        "performedBy": "Sara Williams",
+        "id": "38fd43dc-eb43-482d-b8ad-d967c0892020",
+        "createdAt": "2026-03-08T09:06:54.983Z"
+      },
+      {
+        "id": "5e9c01fc-07df-4666-a1ab-5742c98c7881",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:54.967Z"
+      }
+    ]
+  },
+  {
+    "name": "Quinn Fabray",
+    "email": "quinn.fabray@example.com",
+    "phone": "+1-555-0167",
+    "company": "Umbrella Corp",
+    "jobTitle": "Managing Director",
+    "leadSource": "Cold Outreach",
+    "status": "New Lead",
+    "assignedTo": "Marcus Chen",
+    "value": 42800,
+    "priority": "Medium",
+    "tags": [
+      "Enterprise"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "7f41de61-56d1-42c3-8bcb-da1652edf32e",
+    "createdAt": "2026-01-11T09:06:55.004Z",
+    "updatedAt": "2026-03-08T09:06:55.023Z",
+    "activities": [
+      {
+        "type": "Meeting",
+        "content": "Follow up activity 2",
+        "performedBy": "Marcus Chen",
+        "id": "8e691d8b-3dea-4d41-bf4c-311d7fefcbbe",
+        "createdAt": "2026-03-08T09:06:55.023Z"
+      },
+      {
+        "type": "Call",
+        "content": "Follow up activity 1",
+        "performedBy": "Marcus Chen",
+        "id": "1b7c26c6-0e50-4e2a-8bfb-0f9b76997b5d",
+        "createdAt": "2026-03-08T09:06:55.018Z"
+      },
+      {
+        "id": "28b784de-4dce-436e-b459-a748b58d9062",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:55.006Z"
+      }
+    ]
+  },
+  {
+    "name": "Bob Smith",
+    "email": "bob.smith@example.com",
+    "phone": "+1-555-0172",
+    "company": "Globex",
+    "jobTitle": "Operations Head",
+    "leadSource": "Website",
+    "status": "Closed Won",
+    "assignedTo": "Marcus Chen",
+    "value": 34500,
+    "priority": "High",
+    "tags": [
+      "SaaS"
+    ],
+    "notes": "Initial contact made.",
+    "followUpDate": null,
+    "id": "132bddf8-4a3e-4120-b759-3fb9f1337500",
+    "createdAt": "2026-02-17T09:06:55.027Z",
+    "updatedAt": "2026-03-08T09:06:55.065Z",
+    "activities": [
+      {
+        "type": "Call",
+        "content": "Follow up activity 3",
+        "performedBy": "Marcus Chen",
+        "id": "84f22201-aeb7-4ee9-bdfb-f7ee8295ca82",
+        "createdAt": "2026-03-08T09:06:55.065Z"
+      },
+      {
+        "type": "Email",
+        "content": "Follow up activity 2",
+        "performedBy": "Marcus Chen",
+        "id": "8b27406c-3704-4dcf-8a57-d9e23dfc93fa",
+        "createdAt": "2026-03-08T09:06:55.057Z"
+      },
+      {
+        "type": "Note",
+        "content": "Follow up activity 1",
+        "performedBy": "Marcus Chen",
+        "id": "2fe7d14a-3484-44ce-b1b0-d147be2dd2b5",
+        "createdAt": "2026-03-08T09:06:55.050Z"
+      },
+      {
+        "id": "de9bd51e-6021-41ca-8104-bc8f49a98382",
+        "type": "Note",
+        "content": "Lead created in system.",
+        "performedBy": "System",
+        "createdAt": "2026-03-08T09:06:55.031Z"
       }
     ]
   }

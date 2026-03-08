@@ -16,7 +16,7 @@ export function LeadsOverTimeChart({ data }: LeadsOverTimeChartProps) {
   }));
 
   return (
-    <div className="h-[300px] w-full">
+    <div className="w-full h-full">
       <ResponsiveContainer width="100%" height="100%">
         <LineChart data={formattedData} margin={{ top: 5, right: 20, left: -20, bottom: 0 }}>
           <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E2E8F0" />
